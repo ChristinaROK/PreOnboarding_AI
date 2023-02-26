@@ -19,7 +19,7 @@ else:
 print(f"Current Device : {device}")
 
 
-class CustomClassifier(nn.Module):
+class OneLayerClassifier(nn.Module):
 
     def __init__(self, hidden_size: int, n_label: int, freeze_base: bool = False):
         super(CustomClassifier, self).__init__()

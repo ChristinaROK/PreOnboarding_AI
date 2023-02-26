@@ -3,7 +3,7 @@ import sys
 
 from torch.optim import AdamW
 from transformers import get_linear_schedule_with_warmup
-from .model import CustomClassifier, CrossEntropyLoss
+from .model import OneLayerClassifier, CrossEntropyLoss
 
 
 def initializer(train_dataloader, epochs=2, lr=2e-5):
